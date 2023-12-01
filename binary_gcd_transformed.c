@@ -18,12 +18,11 @@ size_t s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11;
 //
 //-----------------------------------------------------------------------------
 void steins_algorithm() {
-  
+
   size_t stack_s1 = s1;
   size_t stack_s2 = s2;
   size_t stack_s3 = s3;
 
-  
   s1 = a0; // a
   s2 = a1; // b
 

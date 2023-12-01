@@ -14,7 +14,6 @@
 _start:
   ADDI sp, zero, 0x7EC
   ADDI fp, sp, 0
-
   # set saved registers to unique default values
   # to make checking for correct preservation easier
   LUI  s1, 0x11111
@@ -56,6 +55,7 @@ steins_algorithm:
   BEQ s2, zero, b_is_zero
 
   ADDI s3, zero, 0
+
 
 check_even:                            
   ADDI t0, zero, 1                      
